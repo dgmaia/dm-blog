@@ -1,0 +1,59 @@
+.article {
+
+  h1 {
+    color: $text-color;
+    font-weight: 700;
+
+    @media all and (max-width: 425px) {
+      font-size: 26px;
+      margin-bottom: 28px;
+    }
+
+    @media all and (min-width: 426px) {
+      font-size: 34px;
+      margin-bottom: 34px;
+    }
+  }
+
+  p {
+    color: $text-color;
+    font-weight: 400;
+    letter-spacing: .02em;
+
+    @media all and (max-width: 425px) {
+      font-size: 16px;
+      line-height: 26px;
+      margin-bottom: 28px;
+    }
+
+    @media all and (min-width: 426px) {
+      font-size: 20px;
+      line-height: 30px;
+      margin-bottom: 34px;
+    }
+  }
+
+  a {
+    border-bottom: 1px solid $white;
+    color: $link-color;
+    outline: none;
+    transition: border .25s ease;
+
+    &:hover {
+      border-bottom-color: $link-color;
+    }
+
+    @media all and (max-width: 425px) {
+      text-decoration: underline;
+
+      &:hover {
+        border-bottom-color: $white;
+      }
+    }
+
+    @media all and (min-width: 426px) {
+      text-decoration: none;
+    }
+  }
+
+}

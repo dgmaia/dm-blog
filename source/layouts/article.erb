@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
   <%= partial "shared/head" %>
 
   <body class="<%= page_classes %>">
@@ -8,7 +9,17 @@
       <%= partial "shared/column-left" %>
 
       <section  class="column-right">
-        <%= yield %>
+
+        <article class="article">
+          <header>
+            <h1><%= current_page.data.title %></h1>
+          </header>
+
+          <content class="">
+            <%= yield %>
+          </content>
+        </article>
+
       </section>
 
     </div>

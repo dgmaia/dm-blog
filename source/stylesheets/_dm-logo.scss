@@ -1,0 +1,37 @@
+.dm-logo {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+
+  @media all and (max-width: 425px) {
+    width: 50%;
+  }
+
+  @media all and (min-width: 426px) {
+    width: 70%;
+  }
+
+  &:hover {
+    circle {
+      fill: $white;
+    }
+
+    path {
+      stroke: $grey;
+      stroke-width: 11px;
+    }
+  }
+
+  circle {
+    fill: $grey;
+    stroke: $white;
+    stroke-width: 9px;
+    transition: fill .5s ease;
+  }
+
+  path {
+    stroke: $white;
+    stroke-width: 9px;
+    transition: stroke .5s ease;
+  }
+}
