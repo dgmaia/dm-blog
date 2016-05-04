@@ -48,6 +48,16 @@
     }
   }
 
+  .hide {
+    display: none;
+  }
+
+  img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+
   a {
     border-bottom: 1px solid $white;
     color: $link-color;

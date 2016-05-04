@@ -4,12 +4,19 @@ date: 2016-05-04 07:21 UTC
 tags:
 ---
 
-I doodle a lot at work and It helps me to think about stuff Im working on. Is a way for me to stop and put some ideas together, having a little break but not completely putting the problem apart.
+<div class="hide">
+  <img src="/images/pursuit-pattern.png" alt="Javascript Pursuit Pattern" />
+</div>
+
+I doodle a lot at work, It help me to think about stuff I'm working on. Is a way for me to stop and put some ideas together, having a little break but not completely putting the problem apart.
 READMORE
 
-After I saw this [video](#video) I just keep doodling this pattern.
+And after I saw this [video](#video) ... I just keep doing this pattern.
 
 <div class="iframe">
-<iframe src="https://www.youtube.com/embed/vln7rc5WYWM" frameborder="0" allowfullscreen></iframe></div>
+  <iframe src="https://www.youtube.com/embed/vln7rc5WYWM" frameborder="0" allowfullscreen></iframe>
+</div>
 
 Not having good drawing skills and being perfectionist is not a nice combination, so I decided to draw that with Javascript. :D
+
+Have fun: [Pursuit Curve](../../../pursuit-curve)
