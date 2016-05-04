@@ -1,5 +1,50 @@
 .navigation {
+  border-bottom: 1px solid $light-grey;
+  border-top: 1px solid $light-grey;
+  padding: 20px 0;
+
+  @media all and (min-width: $large) {
+    border-color: $white;
+  }
+
+  h2 {
+    display: none;
+  }
+
   li {
     list-style: none;
+    text-align: center;
+  }
+
+  a {
+    display: block;
+    font-family: $secondary-font;
+    padding: 15px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color .5s ease;
+
+    @media all and (max-width: $small) {
+      font-size: 14px;
+    }
+
+    @media all and (min-width: $medium) {
+      font-size: 18px;
+    }
+
+    @media all and (max-width: $large) {
+      background-color: $white;
+      color: $grey;
+    }
+
+    @media all and (min-width: $large-up) {
+      background-color: $grey;
+      color: $white;
+      font-size: 14px;
+
+      &:hover {
+        background-color: $dark-grey;
+      }
+    }
   }
 }

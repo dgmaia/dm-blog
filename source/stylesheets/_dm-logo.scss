@@ -1,37 +1,57 @@
 .dm-logo {
   display: block;
   height: auto;
-  margin: 0 auto;
+  margin: 0 auto 20px;
 
-  @media all and (max-width: 425px) {
-    width: 50%;
+  @media all and (max-width: $small) {
+    padding-top: 20px;
+    width: 55%;
   }
 
-  @media all and (min-width: 426px) {
+  @media all and (min-width: $medium) {
+    width: 40%;
+  }
+
+  @media all and (min-width: $large) {
     width: 70%;
   }
 
   &:hover {
     circle {
-      fill: $white;
+      fill: $grey;
+      stroke: $white;
     }
 
     path {
-      stroke: $grey;
-      stroke-width: 11px;
+      stroke: $white;
     }
   }
 
   circle {
-    fill: $grey;
-    stroke: $white;
     stroke-width: 9px;
-    transition: fill .5s ease;
+    transition: fill .5s ease, stroke .5s ease;
+
+    @media all and (max-width: $large) {
+      fill: $grey;
+      stroke: $white;
+    }
+
+    @media all and (min-width: $large-up) {
+      fill: $white;
+      stroke: $white;
+    }
   }
 
   path {
-    stroke: $white;
     stroke-width: 9px;
     transition: stroke .5s ease;
+
+    @media all and (max-width: $large) {
+      stroke: $white;
+    }
+
+    @media all and (min-width: $large-up) {
+      stroke: $grey;
+    }
   }
 }

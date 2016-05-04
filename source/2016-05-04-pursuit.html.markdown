@@ -1,0 +1,15 @@
+---
+title: Precise Pursuit Curve
+date: 2016-05-04 07:21 UTC
+tags:
+---
+
+I doodle a lot at work and It helps me to think about stuff Im working on. Is a way for me to stop and put some ideas together, having a little break but not completely putting the problem apart.
+READMORE
+
+After I saw this [video](#video) I just keep doodling this pattern.
+
+<div class="iframe">
+<iframe src="https://www.youtube.com/embed/vln7rc5WYWM" frameborder="0" allowfullscreen></iframe></div>
+
+Not having good drawing skills and being perfectionist is not a nice combination, so I decided to draw that with Javascript. :D

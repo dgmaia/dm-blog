@@ -13,11 +13,18 @@
         <article class="article">
           <header>
             <h1><%= current_page.data.title %></h1>
+            <p class="date"><%= current_article.date.strftime('%B %e') %></p>
+            <!--<ul>
+              <% current_article.tags.each do |tag| %>
+                <li><a href="/blog/tags/<%= tag %>/"><%= tag %></a></li>
+              <% end %>
+            </ul>-->
           </header>
 
           <content class="">
             <%= yield %>
           </content>
+          
         </article>
 
       </section>
