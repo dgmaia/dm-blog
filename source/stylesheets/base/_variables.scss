@@ -3,7 +3,7 @@ $secondary-font: 'Dosis', sans-serif;
 
 $white: #fff;
 $grey: #333;
-$light-grey: lighten($grey, 50%);
+$light-grey: lighten($grey, 60%);
 $dark-grey: darken($grey, 5%);
 $red: #f00;
 
@@ -11,10 +11,3 @@ $background-color: $grey;
 
 $text-color: $grey;
 $link-color: $red;
-
-// MEDIA QUERIES
-
-$small: 520px;
-$medium: 521px;
-$large: 820px;
-$large-up: 821px;

@@ -1,0 +1,31 @@
+.pagination {
+  border-bottom: 1px solid $light-grey;
+  border-top: 1px solid $light-grey;
+  display: block;
+  overflow: auto;
+  padding: 40px 0 30px;
+
+  .new {
+    float: right;
+  }
+
+  .button {
+    span {
+      border: 1px solid $white;
+      border-radius: 4px;
+      color: $grey;
+      display: inline-block;
+      font-family: 'Bitter', sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      padding: 10px 12px;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: border-color .3s ease;
+
+      &:hover {
+        border-color: $light-grey;
+      }
+    }
+  }
+}

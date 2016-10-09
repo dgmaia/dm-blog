@@ -1,0 +1,109 @@
+.internal {
+  .header {
+    margin: 0 auto;
+    width: 85%;
+  }
+
+  .dm-logo {
+    margin-bottom: 15px;
+    width: 100px;
+
+    &:hover {
+      circle {
+        fill: $grey;
+      }
+
+      path {
+        fill: $grey;
+        stroke: $white;
+      }
+    }
+
+    circle {
+      fill: $white;
+    }
+
+    path {
+      fill: $white;
+      stroke: $grey;
+    }
+  }
+
+  .navigation {
+    margin: 0 auto 60px;
+    padding: 25px 0 23px;
+    width: 85%;
+
+    a {
+      font-size: 14px;
+
+      &:hover span {
+        top: -4px;
+      }
+    }
+  }
+
+  article {
+    border: 0;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    color: $grey;
+    font-size: 46px;
+  }
+
+  .date {
+    font-size: 16px;
+  }
+
+  .body {
+    p,
+    a {
+      font-family: 'Roboto Slab', sans-serif;
+      font-size: 20px;
+      letter-spacing: .02em;
+      line-height: 1.5em;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto 40px;
+      max-width: 100%;
+    }
+
+    a {
+      border-bottom: 1px solid $white;
+      color: $red;
+      text-decoration: none;
+      transition: border-color .3s ease;
+
+      &:hover {
+        border-color: $red;
+      }
+    }
+  }
+
+  .iframe {
+    background-color: $grey;
+    height: auto;
+    margin: 40px auto;
+    padding-bottom: 56%;
+    position: relative;
+    width: 100%;
+
+    iframe {
+      bottom: 0;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 100%;
+    }
+  }
+}
